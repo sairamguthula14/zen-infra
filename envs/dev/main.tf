@@ -1,6 +1,7 @@
-# Initial dev environment eks setup 
+# Initial dev environment eks setup purna 
 
 data "aws_caller_identity" "current" {}
+
 
 module "vpc" {
   source = "../../modules/vpc"
